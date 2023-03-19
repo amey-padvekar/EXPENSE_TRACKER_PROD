@@ -33,6 +33,6 @@ app.get('*', function(req,res){
 })
 
 //listen server
-app.listen(PORT,()=>{
+app.listen(PORT||3000,()=>{
     console.log(`Server running on ${PORT}`);
 })
